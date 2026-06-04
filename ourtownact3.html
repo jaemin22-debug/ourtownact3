@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Town Act 3 Reading Comprehension Quiz</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f7f6;
+        }
+        .quiz-container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            border-bottom: 2px solid #2980b9;
+            padding-bottom: 10px;
+        }
+        .quiz-description {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        .question {
+            margin-bottom: 25px;
+            padding: 15px;
+            border-left: 5px solid #2980b9;
+            background-color: #fafafa;
+        }
+        .question-text {
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+        }
+        .excerpt {
+            font-style: italic;
+            background-color: #eee;
+            padding: 10px;
+            margin-bottom: 10px;
+            display: block;
+            border-radius: 4px;
+            white-space: pre-wrap;
+        }
+        .options {
+            list-style-type: none;
+            padding: 0;
+        }
+        .options li {
+            margin-bottom: 8px;
+        }
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .submit-btn:hover {
+            background-color: #227093;
+        }
+        #result {
+            margin-top: 25px;
+            font-weight: bold;
+            text-align: center;
+            font-size: 22px;
+            color: #2c3e50;
+            padding: 15px;
+            background-color: #dff9fb;
+            border-radius: 4px;
+            display: none;
+        }
+        u { text-decoration: underline; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Our Town: Act 3 (Death and Eternity) Quiz</h1>
+        <p class="quiz-description">Answer all 10 questions and click 'Submit' at the bottom to check your total score.</p>
+        
+        <form id="quizForm">
+            <!-- Q1: Stage Manager's Opening Concept -->
+            <div class="question">
+                <span class="question-text">1. According to the Stage Manager's opening narration in Act 3, what happens to the dead as they wait in the cemetery over time?</span>
+                <ul class="options">
+                    <li><input type="radio" name="q1" value="a"> a) They anxiously try to communicate with their living relatives.</li>
+                    <li><input type="radio" name="q1" value="b"> b) They get gradually "weaned away" from the earth and become indifferent to human ambitions.</li>
+                    <li><input type="radio" name="q1" value="c"> c) They spend their time plotting ways to rewrite the town's history books.</li>
+                    <li><input type="radio" name="q1" value="d"> d) They retain a bitter, eternal anger toward those who outlived them.</li>
+                </ul>
+            </div>
+
+            <!-- Q2: Famous Quote Identification - Emily's Farewell -->
+            <div class="question">
+                <span class="question-text">2. Who speaks the following lines as she bids an emotional farewell to the everyday physical wonders of the world?</span>
+                <span class="excerpt">"Good-by, good-by, world. Good-by, Grover's Corners... Mama and Papa. Good-by to clocks ticking and Mama's sunflowers. And food and coffee..."</span>
+                <ul class="options">
+                    <li><input type="radio" name="q2" value="a"> a) Mrs. Gibbs</li>
+                    <li><input type="radio" name="q2" value="b"> b) Mrs. Soames</li>
+                    <li><input type="radio" name="q2" value="c"> c) Emily Webb</li>
+                    <li><input type="radio" name="q2" value="d"> d) Rebecca Gibbs</li>
+                </ul>
+            </div>
+
+            <!-- Q3: The Legacy Question -->
+            <div class="question">
+                <span class="question-text">3. Emily mentions buying a long cement drinking fountain for the stock on her farm out of a legacy of "over three hundred and fifty dollars." Where did this inheritance money originally come from?</span>
+                <ul class="options">
+                    <li><input type="radio" name="q3" value="a"> a) The sale of Grandmother Wentworth's highboy to a Boston furniture man.</li>
+                    <li><input type="radio" name="q3" value="b"> b) A secret bank account left behind by Simon Stimson.</li>
+                    <li><input type="radio" name="q3" value="c"> c) Mr. Webb's retirement package from the Grover's Corners Sentinel.</li>
+                    <li><input type="radio" name="q3" value="d"> d) A reward from the state for Dr. Gibbs' medical service during the war.</li>
+                </ul>
+            </div>
+
+            <!-- Q4: Metaphorical Expression - "shut up in little boxes" -->
+            <div class="question">
+                <span class="question-text">4. When Emily laments that live people don't understand life, she says they are "sort of <u>shut up in little boxes</u>." What does this metaphorical expression imply?</span>
+                <ul class="options">
+                    <li><input type="radio" name="q4" value="a"> a) People in towns live in tiny, cramped apartment blocks.</li>
+                    <li><input type="radio" name="q4" value="b"> b) Humans are trapped inside strict social classes that they cannot escape.</li>
+                    <li><input type="radio" name="q4" value="c"> c) Living people pack their belongings tightly when traveling out West.</li>
+                    <li><input type="radio" name="q4" value="d"> d) Living people are completely self-absorbed, isolated in their small routines, and blind to life's true value.</li>
+                </ul>
+            </div>
+
+            <!-- Q5: Unbearable Regret ("I can't bear it") -->
+            <div class="question">
+                <span class="question-text">5. Why does Emily break down crying during her return to the past, stating "I can't. I can't go on. Oh! Oh. It goes so fast"?</span>
+                <ul class="options">
+                    <li><input type="radio" name="q5" value="a"> a) She is deeply troubled by the sub-zero winter temperatures of Hamilton College.</li>
+                    <li><input type="radio" name="q5" value="b"> b) She cannot bear the painful realization that living people remain blind to the preciousness of every passing moment.</li>
+                    <li><input type="radio" name="q5" value="c"> c) She finds out her mother completely forgot it was her twelfth birthday.</li>
+                    <li><input type="radio" name="q5" value="d"> d) She is distressed because her brother Wally refuses to speak to her at breakfast.</li>
+                </ul>
+            </div>
+
+            <!-- Q6: Stage Direction Fill-in-the-Blank -->
+            <div class="question">
+                <span class="question-text">6. Choose the most appropriate stage direction to fill in the blank at the climax of the cemetery scene:</span>
+                <span class="excerpt">"THE DEAD: Goodness! That ain't no way to behave!—He ought to be home.
+EMILY: Mother Gibbs?
+MRS. GIBBS: Yes, Emily?
+EMILY: They don't understand much, do they?
+[ _______________________ ]"</span>
+                <ul class="options">
+                    <li><input type="radio" name="q6" value="a"> a) (GEORGE flings himself on EMILY'S grave.)</li>
+                    <li><input type="radio" name="q6" value="b"> b) (STAGE MANAGER draws a dark curtain across the scene.)</li>
+                    <li><input type="radio" name="q6" value="c"> c) (MR. WEBB crosses into the house, whistling a hymn.)</li>
+                    <li><input type="radio" name="q6" value="d"> d) (SIMON STIMSON speaks with mounting violence.)</li>
+                </ul>
+            </div>
+
+            <!-- Q7: Tricky Syntax/Grammar - "our fit's over" -->
+            <div class="question">
+                <span class="question-text">7. In the Stage Manager's speech, "We're all glad they're in a beautiful place and we're coming up here ourselves when <u>our fit's</u> over," what does the underlined phrase "<u>our fit</u>" mean in this specific context?</span>
+                <ul class="options">
+                    <li><input type="radio" name="q7" value="a"> a) Our designated lifespan or temporary period of earthly existence</li>
+                    <li><input type="radio" name="q7" value="b"> b) A sudden physical seizure or medical attack</li>
+                    <li><input type="radio" name="q7" value="c"> c) A custom-fitted black suit worn for a formal funeral</li>
+                    <li><input type="radio" name="q7" value="d"> d) An emotional outburst of grief and crying</li>
+                </ul>
+            </div>
+
+            <!-- Q8: Tricky Syntax/Grammar - Infinitive Phrase Reference -->
+            <div class="question">
+                <span class="question-text">8. Look at Simon Stimson's bitter dialogue: "Now you know—that's the happy existence you wanted <u>to go back and see</u>." What does the underlined infinitive phrase grammatically modify or refer to?</span>
+                <ul class="options">
+                    <li><input type="radio" name="q8" value="a"> a) Simon's regret over hanging himself in the attic</li>
+                    <li><input type="radio" name="q8" value="b"> b) Emily's choice to return and relive her twelfth birthday</li>
+                    <li><input type="radio" name="q8" value="c"> c) The living townspeople attending choir practice in the rain</li>
+                    <li><input type="radio" name="q8" value="d"> d) George's dream of permanently running his uncle's farm</li>
+                </ul>
+            </div>
+
+            <!-- Q9: Key Quote Fill-in-the-Blank with Underline -->
+            <div class="question">
+                <span class="question-text">9. Complete Simon Stimson’s description of mortal life by filling in the blank: "To move about in a <u>[ ___________ ]</u>; to go up and down trampling on the feelings of... those about you."</span>
+                <ul class="options">
+                    <li><input type="radio" name="q9" value="a"> a) flash of brilliance</li>
+                    <li><input type="radio" name="q9" value="b"> b) valley of tears</li>
+                    <li><input type="radio" name="q9" value="c"> c) cloud of ignorance</li>
+                    <li><input type="radio" name="q9" value="d"> d) matrix of competition</li>
+                </ul>
+            </div>
+
+            <!-- Q10: Ending Celestial Imagery -->
+            <div class="question">
+                <span class="question-text">10. At the very close of the play, what cosmic image does the Stage Manager use to contrast the brief, straining life of humans on Earth with the timeless universe?</span>
+                <ul class="options">
+                    <li><input type="radio" name="q10" value="a"> a) A tired clock ticking loudly in the town hall basement</li>
+                    <li><input type="radio" name="q10" value="b"> b) The sound of the Albany train passing by the depot</li>
+                    <li><input type="radio" name="q10" value="c"> c) A wet newspaper copy being painted with silicate glue</li>
+                    <li><input type="radio" name="q10" value="d"> d) The stars doing their old, old criss-cross journeys in the sky</li>
+                </ul>
+            </div>
+
+            <button type="button" class="submit-btn" onclick="calculateQuizScore()">Submit Quiz</button>
+        </form>
+        
+        <div id="result"></div>
+    </div>
+
+    <script>
+        function calculateQuizScore() {
+            // Strictly mapped keys guaranteeing balanced option distribution
+            const correctKey = {
+                q1: 'b', q2: 'c', q3: 'a', q4: 'd', q5: 'b',
+                q6: 'a', q7: 'a', q8: 'b', q9: 'c', q10: 'd'
+            };
+            
+            let finalScore = 0;
+            const totalQuestions = 10;
+            const quizForm = document.getElementById('quizForm');
+            
+            for (let i = 1; i <= totalQuestions; i++) {
+                const radioGroup = quizForm['q' + i];
+                
+                for (let j = 0; j < radioGroup.length; j++) {
+                    if (radioGroup[j].checked) {
+                        if (radioGroup[j].value === correctKey['q' + i]) {
+                            finalScore++;
+                        }
+                    }
+                }
+            }
+            
+            const resultDisplay = document.getElementById('result');
+            resultDisplay.style.display = 'block';
+            resultDisplay.innerHTML = "Quiz Submitted! Your Total Score: " + finalScore + " / " + totalQuestions;
+            
+            resultDisplay.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
